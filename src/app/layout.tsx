@@ -1,3 +1,4 @@
+import NavMenu from '@/components/NavMenu'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body>
+        <NavMenu />
+        <div id="container">{children}</div>
+      </body>
     </html>
   )
 }
