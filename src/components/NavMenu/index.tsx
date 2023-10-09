@@ -9,7 +9,7 @@ import { CloseOutlined, MenuOutlined } from '@mui/icons-material'
 import { useState } from 'react'
 
 const NavMenu = () => {
-    const [menuOpen, setMenuOpen] = useState<boolean>(true)
+    const [menuOpen, setMenuOpen] = useState<boolean>()
 
     const handleToggleMenu = (): void => {
         setMenuOpen(!menuOpen)
@@ -24,7 +24,7 @@ const NavMenu = () => {
             <nav className={`${styles.nav} ${menuOpen ? '' : styles.closed_menu}`}>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
                         <a href="#">Sobre</a>
