@@ -1,0 +1,84 @@
+.take_flight {
+    /* height: 800px; */
+    background-image: url('../../assets//img/take_flight_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding: 180px 120px;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+}
+
+.content p {
+    margin-top: 25px;
+    display: block;
+    max-width: 700px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.content button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1.4em;
+    background: none;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.content button:hover {
+    background-color: rgba(0, 0, 0, .4);
+    border-color: rgba(0, 0, 0, .4);
+}
+
+.content button svg {
+    margin-left: 15px;
+    font-size: 1.6em;
+}
+
+.background {
+    width: 50%;
+    background: linear-gradient(110deg,
+            transparent 0%, transparent 50%,
+            #FB6526 50%, #FB6526 60%,
+            #000 60%, #000 70%,
+            #676767 70%, #676767 100%);
+    position: relative;
+}
+
+.diagonal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diagonal img {
+    pointer-events: none;
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+}
