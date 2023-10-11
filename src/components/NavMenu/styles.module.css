@@ -4,9 +4,7 @@
     background-color: #000;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
 
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    position: relative;
 }
 
 .header {
@@ -70,6 +68,9 @@
 @media screen and (min-width: 768px) {
     .header_container {
         flex-direction: row;
+        position: sticky;
+        top: 0;
+        z-index: 999;
     }
 
     .header img {
@@ -96,6 +97,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .nav li {

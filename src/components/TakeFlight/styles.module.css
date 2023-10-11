@@ -7,13 +7,15 @@
 }
 
 .mask {
-    background-color: rgba(0, 0, 0, .7);
+    /* height: 100%; */
+    background-color: rgba(0, 0, 0, .8);
     display: flex;
 }
 
 .content {
     flex: 1;
-    padding: 180px 120px;
+    padding: 80px 30px;
+    margin: auto 0;
 }
 
 .content h1 {
@@ -32,7 +34,7 @@
 }
 
 .content button {
-    margin-top: 30px;
+    margin-top: 35px;
     display: flex;
     align-items: center;
     padding: 10px 30px;
@@ -51,34 +53,46 @@
 }
 
 .content button svg {
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 1.6em;
 }
 
 .background {
-    width: 50%;
-    background: linear-gradient(110deg,
-            transparent 0%, transparent 50%,
-            #FB6526 50%, #FB6526 60%,
-            #000 60%, #000 70%,
-            #676767 70%, #676767 100%);
-    position: relative;
+    display: none;
 }
 
-.diagonal {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@media screen and (min-width: 768px) {
+    .content {
+        flex: 1;
+        padding: 180px 120px;
+    }
 
-.diagonal img {
-    pointer-events: none;
-    width: 100%;
-    min-width: 400px;
-    height: auto;
+    .background {
+        display: block;
+        width: 50%;
+        background: linear-gradient(110deg,
+                transparent 0%, transparent 50%,
+                #FB6526 50%, #FB6526 60%,
+                #000 60%, #000 70%,
+                #676767 70%, #676767 100%);
+        position: relative;
+    }
+
+    .diagonal {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .diagonal img {
+        pointer-events: none;
+        width: 100%;
+        /* min-width: 340px; */
+        height: auto;
+    }
 }
