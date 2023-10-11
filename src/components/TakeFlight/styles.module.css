@@ -69,11 +69,11 @@
     .background {
         display: block;
         width: 50%;
-        background: linear-gradient(110deg,
+        background: linear-gradient(105deg,
                 transparent 0%, transparent 50%,
                 #FB6526 50%, #FB6526 60%,
-                #000 60%, #000 70%,
-                #676767 70%, #676767 100%);
+                #fff 60%, #fff 70%,
+                #404040 70%, #404040 100%);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

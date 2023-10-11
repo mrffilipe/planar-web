@@ -18,7 +18,7 @@ const NavMenu = () => {
     return (
         <header className={styles.header_container}>
             <div className={styles.header}>
-                <Image src={Logo} alt='Logo Planar' />
+                <Image src={Logo} alt='Logo Planar' draggable={false}/>
                 <button onClick={handleToggleMenu}>{menuOpen ? <CloseOutlined /> : <MenuOutlined />}</button>
             </div>
             <nav className={`${styles.nav} ${menuOpen ? '' : styles.closed_menu}`}>

@@ -1,0 +1,43 @@
+.about_us {
+    display: flex;
+}
+
+.background {
+    flex: 1;
+
+    position: relative;
+}
+
+.mask {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(251, 101, 38, .5);
+}
+
+.background img {
+    width: 400px;
+    height: auto;
+}
+
+.content {
+    width: 60%;
+    padding: 160px 0;
+    padding-right: 80px;
+}
+
+.content h1 {
+    color: var(--accent-color);
+    font-size: 3.6em;
+    font-weight: 600;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.content p {
+    margin-top: 25px;
+    display: block;
+    max-width: 650px;
+    color: #404040;
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 960px) {}
