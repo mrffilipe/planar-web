@@ -1,0 +1,100 @@
+.think_different {
+    background-image: url('../../assets//img/take_flight_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mask {
+    height: 800px;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding: 80px 30px;
+    margin: auto 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.title span {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.content p {
+    margin-top: 25px;
+    display: block;
+    max-width: 700px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.background {
+    display: none;
+}
+
+@media screen and (min-width: 960px) {
+    .background {
+        display: block;
+        width: 50%;
+        background: linear-gradient(-105deg,
+                transparent 0%, transparent 50%,
+                #FB6526 50%, #FB6526 60%,
+                #fff 60%, #fff 70%,
+                #404040 70%, #404040 100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .diagonal {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .diagonal img {
+        pointer-events: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        flex: 1;
+        padding: 180px 0;
+        padding-right: 60px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .title span {
+        margin-left: 15px;
+        margin-bottom: 5px;
+        font-size: 2.4em;
+    }
+}
