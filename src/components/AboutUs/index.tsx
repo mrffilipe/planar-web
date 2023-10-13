@@ -1,16 +1,10 @@
 import styles from './styles.module.css'
 
-import Image from 'next/image'
-
-import TakeFlightImg from '@/assets/img/take_flight_bg.jpg'
-
 const AboutUs = () => {
     return (
         <section className={styles.about_us}>
             <div className={styles.background}>
-                <div className={styles.mask}>
-                    <Image src={TakeFlightImg} alt='Vídeo' />
-                </div>
+                <div className={styles.shape}></div>
             </div>
             <div className={styles.content}>
                 <h1>SOBRE NÓS</h1>

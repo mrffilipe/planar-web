@@ -1,28 +1,9 @@
-.about_us {
-    display: flex;
-}
-
 .background {
-    flex: 1;
-
-    position: relative;
-}
-
-.mask {
-    width: 400px;
-    height: 400px;
-    background-color: rgba(251, 101, 38, .5);
-}
-
-.background img {
-    width: 400px;
-    height: auto;
+    display: none;
 }
 
 .content {
-    width: 60%;
-    padding: 160px 0;
-    padding-right: 80px;
+    padding: 140px 20px;
 }
 
 .content h1 {
@@ -40,4 +21,25 @@
     font-size: 1.2em;
 }
 
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+    .about_us {
+        display: flex;
+        align-items: center;
+    }
+
+    .background {
+        width: 50%;
+    }
+
+    .shape {
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+    }
+
+    .content {
+        flex: 1;
+        padding: 140px 0;
+        padding-right: 80px;
+    }
+}
