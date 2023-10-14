@@ -28,13 +28,31 @@
     }
 
     .background {
-        width: 50%;
+        display: block;
+        width: 40%;
+        display: flex;
+        align-items: center;
+
+        position: relative;
     }
 
-    .shape {
+    .background>div {
         width: 400px;
         height: 400px;
-        background-color: blue;
+        background-image: url('../../assets//img//solar_energy.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 8px;
+        overflow: hidden;
+
+        position: absolute;
+        left: -20px;
+    }
+
+    .mask {
+        height: 100%;
+        background-color: rgba(0, 0, 0, .4);
     }
 
     .content {

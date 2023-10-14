@@ -3,10 +3,16 @@ import styles from './styles.module.css'
 import Image from 'next/image'
 
 import SolarEnergyIcon from '@/assets/icons/solar_energy.png'
+import EngineeringIcon from '@/assets/icons/engineering.png'
+import EnergyIcon from '@/assets/icons/energy.png'
+import ShoppingIcon from '@/assets/icons/shopping.png'
+import MotorIcon from '@/assets/icons/motor.png'
+import TransformerIcon from '@/assets/icons/transformer.png'
+import ServiceIcon from '@/assets/icons/service.png'
 
 const Experience = () => {
     return (
-        <section className={styles.experience}>
+        <section id='experiencia' className={styles.experience}>
             <div className={styles.title}>
                 <h1>EXPERIÊNCIA</h1>
                 <p>
@@ -20,35 +26,27 @@ const Experience = () => {
                         <div></div>
                     </div>
                     <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
+                        <Image src={EngineeringIcon} alt='Engineering Icons8' />
                         <div></div>
                     </div>
                     <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
+                        <Image src={EnergyIcon} alt='Energy Icons8' />
                         <div></div>
                     </div>
                     <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
+                        <Image src={ShoppingIcon} alt='Shopping Icons8' />
                         <div></div>
                     </div>
                     <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
+                        <Image src={MotorIcon} alt='Motor Icons8' />
                         <div></div>
                     </div>
                     <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
+                        <Image src={TransformerIcon} alt='Transformer Icons8' />
                         <div></div>
                     </div>
                     <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
-                        <div></div>
-                    </div>
-                    <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
-                        <div></div>
-                    </div>
-                    <div className={styles.card}>
-                        <Image src={SolarEnergyIcon} alt='Solar energy Icons8' />
+                        <Image src={ServiceIcon} alt='Service Icons8' />
                         <div></div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 
 import Image from 'next/image'
 
-import DroneImg from '@/assets/img/agras_t40.png'
+import DroneImg from '@/assets/img/agras_t40_left.png'
 
 const ThinkDifferent = () => {
     return (

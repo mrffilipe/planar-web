@@ -1,10 +1,14 @@
 import styles from './styles.module.css'
 
+import Image from 'next/image'
+
 const AboutUs = () => {
     return (
-        <section className={styles.about_us}>
+        <section id='sobre-nos' className={styles.about_us}>
             <div className={styles.background}>
-                <div className={styles.shape}></div>
+                <div>
+                    <div className={styles.mask}></div>
+                </div>
             </div>
             <div className={styles.content}>
                 <h1>SOBRE NÓS</h1>

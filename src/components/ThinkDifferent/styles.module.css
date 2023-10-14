@@ -1,5 +1,5 @@
 .think_different {
-    background-image: url('../../assets//img/take_flight_bg.jpg');
+    background-image: url('../../assets//img/think_different_bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -53,10 +53,10 @@
         display: block;
         width: 50%;
         background: linear-gradient(-105deg,
-                transparent 0%, transparent 50%,
-                #FB6526 50%, #FB6526 60%,
-                #fff 60%, #fff 70%,
-                #404040 70%, #404040 100%);
+                transparent 0%, transparent 66%,
+                #FB6526 66%, #FB6526 72%,
+                #fff 72%, #ffff 78%,
+                #404040 78%, #404040 100%);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

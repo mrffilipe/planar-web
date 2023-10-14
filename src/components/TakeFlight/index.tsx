@@ -7,7 +7,7 @@ import DroneImg from '@/assets/img/agras_t40.png'
 
 const TakeFlight = () => {
     return (
-        <section className={styles.take_flight}>
+        <section id='levante-voo' className={styles.take_flight}>
             <div className={styles.mask}>
                 <div className={styles.content}>
                     <h1>LEVANTE VOO</h1>

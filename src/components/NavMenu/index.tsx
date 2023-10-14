@@ -3,6 +3,7 @@
 import styles from './styles.module.css'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 import Logo from '@/assets/img/logo.png'
 import { CloseOutlined, MenuOutlined } from '@mui/icons-material'
@@ -18,19 +19,25 @@ const NavMenu = () => {
     return (
         <header className={styles.header_container}>
             <div className={styles.header}>
-                <Image src={Logo} alt='Logo Planar' draggable={false}/>
+                <Image src={Logo} alt='Logo Planar' draggable={false} />
                 <button onClick={handleToggleMenu}>{menuOpen ? <CloseOutlined /> : <MenuOutlined />}</button>
             </div>
             <nav className={`${styles.nav} ${menuOpen ? '' : styles.closed_menu}`}>
                 <ul>
                     <li>
-                        <a href="/">Home</a>
+                        <Link href="#levante-voo">Home</Link>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
+                        <Link href="#sobre-nos">Sobre</Link>
                     </li>
                     <li>
-                        <a href="#">Experiências</a>
+                        <Link href="#experiencia">Experiência</Link>
+                    </li>
+                    <li>
+                        <Link href="#laboratorio">Laboratório</Link>
+                    </li>
+                    <li>
+                        <Link href="#clientes">Clientes</Link>
                     </li>
                 </ul>
             </nav>

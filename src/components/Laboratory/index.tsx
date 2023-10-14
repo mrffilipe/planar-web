@@ -6,7 +6,7 @@ import DroneImg from '@/assets/img/agras_t40.png'
 
 const Laboratory = () => {
     return (
-        <section className={styles.laboratory}>
+        <section id='laboratorio' className={styles.laboratory}>
             <div className={styles.title}>
                 <h1>LABORATÓRIO</h1>
                 <p>
