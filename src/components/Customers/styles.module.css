@@ -1,0 +1,29 @@
+.customer {
+    background-image: url('../../assets//img/customers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mask {
+    padding: 60px 30px;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mask img {
+    margin: 20px;
+    width: calc(33% - 40px);
+    height: auto;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+    .mask img {
+        width: auto;
+        height: 90px;
+    }
+}

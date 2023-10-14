@@ -5,6 +5,7 @@ import AboutUs from '@/components/AboutUs'
 import ThinkDifferent from '@/components/ThinkDifferent'
 import Experience from '@/components/Experience'
 import Laboratory from '@/components/Laboratory'
+import Customers from '@/components/Customers'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ThinkDifferent />
       <Experience />
       <Laboratory />
+      <Customers />
     </>
   )
 }
