@@ -4,6 +4,7 @@ import TakeFlight from '@/components/TakeFlight'
 import AboutUs from '@/components/AboutUs'
 import ThinkDifferent from '@/components/ThinkDifferent'
 import Experience from '@/components/Experience'
+import Laboratory from '@/components/Laboratory'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutUs />
       <ThinkDifferent />
       <Experience />
+      <Laboratory />
     </>
   )
 }

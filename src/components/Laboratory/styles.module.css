@@ -1,0 +1,140 @@
+.laboratory {
+    padding: 120px 30px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 700;
+    border-bottom: 1px solid #8c8c8c;
+}
+
+.title p {
+    margin-top: 25px;
+    display: block;
+    max-width: 600px;
+    font-size: 1.2em;
+}
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+
+    order: 1;
+}
+
+.detail_left,
+.detail_right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+    order: 2;
+}
+
+.info {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #9f9f9f;
+}
+
+.info span {
+    font-size: 1.2em;
+}
+
+.info>div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.info>div p strong {
+    font-size: 3em;
+    color: #fca27c;
+}
+
+.info>div span {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 1.6em;
+    color: #fca27c;
+}
+
+@media screen and (min-width: 960px) {
+    .laboratory {
+        background: linear-gradient(105deg,
+                transparent 0%, transparent 66%,
+                #fca27c 66%, #fca27c 72%,
+                #FB6526 72%, #FB6526 78%,
+                #404040 78%, #404040 100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title h1 {
+        text-align: 3.6em;
+    }
+
+    .title p {
+        text-align: center;
+    }
+
+    .content {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content img {
+        width: 60%;
+
+        order: 2;
+    }
+
+    .detail_left {
+        order: 1;
+    }
+
+    .detail_right {
+        order: 3;
+    }
+
+    .detail_left,
+    .detail_right {
+        flex: 1;
+        display: block;
+    }
+
+    .info {
+        margin: 60px 0;
+    }
+
+    .detail_right .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .detail_right .info>span {
+        width: 100%;
+        text-align: end;
+        color: #fff;
+    }
+}
