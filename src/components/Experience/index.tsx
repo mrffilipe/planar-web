@@ -16,7 +16,7 @@ const Experience = () => {
             <div className={styles.title}>
                 <h1>EXPERIÊNCIA</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices lorem at lorem fringilla.
+                    Mais de uma década iluminando vidas.
                 </p>
             </div>
             <div className={styles.content}>

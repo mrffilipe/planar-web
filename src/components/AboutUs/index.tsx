@@ -13,8 +13,7 @@ const AboutUs = () => {
             <div className={styles.content}>
                 <h1>SOBRE NÓS</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices lorem at lorem fringilla, sed varius purus eleifend. Vivamus dapibus pharetra lorem.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices lorem at lorem fringilla, sed varius purus eleifend. Vivamus dapibus pharetra lorem.
+                    Somos apaixonados pela engenharia elétrica e energia fotovoltaica. Nossa jornada é impulsionada pela inovação e sustentabilidade, fornecendo soluções ecologicamente corretas para as necessidades energéticas do mundo.
                 </p>
             </div>
         </section >

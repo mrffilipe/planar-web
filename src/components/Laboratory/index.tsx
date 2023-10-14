@@ -10,7 +10,7 @@ const Laboratory = () => {
             <div className={styles.title}>
                 <h1>LABORATÓRIO</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices lorem at lorem fringilla.
+                    Nosso centro de pesquisa é o coração da tecnologia de drones. Aqui, concebemos as soluções que mudam a agricultura.
                 </p>
             </div>
             <div className={styles.content}>

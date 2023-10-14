@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 
 import Image from 'next/image'
 
-import DroneImg from '@/assets/img/agras_t40_left.png'
+import DroneImg from '@/assets/img/agras_t40_left.webp'
 
 const ThinkDifferent = () => {
     return (
@@ -19,7 +19,7 @@ const ThinkDifferent = () => {
                         <span>DIFERENTE</span>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices lorem at lorem fringilla, sed varius purus eleifend. Vivamus dapibus pharetra lorem.
+                        Inovação está no nosso DNA. Desafiamos o status quo, criando soluções elétricas e energéticas que vão além do convencional. O futuro é agora.
                     </p>
                 </div>
             </div>

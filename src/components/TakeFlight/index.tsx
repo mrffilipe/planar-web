@@ -12,7 +12,7 @@ const TakeFlight = () => {
                 <div className={styles.content}>
                     <h1>LEVANTE VOO</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices lorem at lorem fringilla, sed varius purus eleifend. Vivamus dapibus pharetra lorem.
+                        Elevamos lavouras com precisão e eficiência, usando drones de alta tecnologia. Sua colheita, nosso compromisso!
                     </p>
                     <button>Leia mais<ArrowCircleRightOutlined /></button>
                 </div>
